@@ -1,10 +1,8 @@
 # Recommendation for Increasing Customer Retention
 
-Category: Funnel Analysis, RFM Segmentation, Recommendation, Retention Analysis
-Oragnization: Personal Project
-Tools: Python
-
-- Contents
+- Category: Funnel Analysis, RFM Segmentation, Recommendation, Retention Analysis
+- Organization: Personal Project
+- Tools: Python
 
 ## Objective
 
@@ -35,7 +33,7 @@ Tools: Python
     - There is a higher number of new customers in the second half compared to the first half, and there is a consistent surge of new customers every July.
     - The upward trend in 2021 and 2022 is pronounced due to the impact of the COVID-19 pandemic.
     
-    ![1. trend.png](Recommendation%20for%20Increasing%20Customer%20Retention%20b6d077c336384de0a571e53c570f395c/1._trend.png)
+    ![1 _trend](https://github.com/arden333/Data-Projects/assets/110075002/5d08c435-6e6b-4997-9518-dcf93f7cb480)
     
 
 ### 2. RFM Analysis
@@ -45,7 +43,7 @@ Tools: Python
     - Customers were categorized into three groups based on their level of engagement; Active, Normal, and Non-active groups
     - While the proportions of the three groups are similar, the Active customer group, which has the most significant impact on revenue, has the lowest proportion.
     
-    ![3. rfm.png](Recommendation%20for%20Increasing%20Customer%20Retention%20b6d077c336384de0a571e53c570f395c/3._rfm.png)
+    ![3 _rfm](https://github.com/arden333/Data-Projects/assets/110075002/b8630871-2e04-4d0c-b2be-37b04bf99e72)
     
 
 ### 3. Retention Analysis
@@ -55,14 +53,14 @@ Tools: Python
     - The recent cohort that made their first purchase exhibited a retention rate approximately 10%p lower compared to other cohorts within the same period.
     - Initially maintained at around 40%, it declines to the 20% range within 18 months. This signifies a decrease in the retention period.
     
-    ![4.re_purchase.png](Recommendation%20for%20Increasing%20Customer%20Retention%20b6d077c336384de0a571e53c570f395c/4.re_purchase.png)
+    ![4 re_purchase](https://github.com/arden333/Data-Projects/assets/110075002/5ffebdd2-7183-4e85-8530-646ec9492242)
     
 - **Rolling Retention** (Cohort by retention periods)
     - The retention period is defined as the duration from the signup date to the last login date.
     - Since December 2021, there has been a notable increase in the decline of retention rates.
     - Customers who recently joined have a shorter retention period compared to other cohorts within the same period.
     
-    ![5.re_period.png](Recommendation%20for%20Increasing%20Customer%20Retention%20b6d077c336384de0a571e53c570f395c/5.re_period.png)
+    ![5 re_period](https://github.com/arden333/Data-Projects/assets/110075002/9f90116d-08cd-4b2a-8032-f8374104d054)
     
 
 ### 3. Funnel Analysis
@@ -79,11 +77,11 @@ Tools: Python
 - Defining the customer journey from search to purchase, cases where customers directly added to the cart or made a purchase without visiting detailed item pages accounted for 29.5%.
     - There is a limitation in identifying exact funnels as I was unable to check the web pages.
     
-    ![6.funnel type.png](Recommendation%20for%20Increasing%20Customer%20Retention%20b6d077c336384de0a571e53c570f395c/6.funnel_type.png)
+    ![6 funnel_type](https://github.com/arden333/Data-Projects/assets/110075002/5d61a41c-2a76-416f-bc40-9af33cb40e98)
     
 - Assuming a sequential experience through the 4-stage funnel, the conversion rate from the product detail page to purchase intent is the lowest at 30%, indicating a declining trend. Improvement is needed in this aspect.
     
-    ![7. funnel trend.png](Recommendation%20for%20Increasing%20Customer%20Retention%20b6d077c336384de0a571e53c570f395c/7._funnel_trend.png)
+    ![7 _funnel_trend](https://github.com/arden333/Data-Projects/assets/110075002/dc6fd0ce-547e-401b-b50d-7068ec27f14e)
     
 
 ### 4. Insights
@@ -107,24 +105,24 @@ Tools: Python
     - Excluded cases where a product is repeatedly purchased, as this may excessively inflate the preference score
 - **Modeling**
     
-    ![8.rec.png](Recommendation%20for%20Increasing%20Customer%20Retention%20b6d077c336384de0a571e53c570f395c/8.rec.png)
+    ![8 rec](https://github.com/arden333/Data-Projects/assets/110075002/76b50dc0-9d46-4f81-8612-e0e9ec162ece)
     
     1.  Best-seller based on statistics
         - Sorted products by sales volume and average rating in descending order
         - Removed duplicate values with the same main category and subcategory for diverse product recommendations
         - Filtered a maximum of 5 products per main category based on the customer's gender for the final recommendation
             
-            ![스크린샷 2023-03-21 오전 1.23.56.png](Recommendation%20for%20Increasing%20Customer%20Retention%20b6d077c336384de0a571e53c570f395c/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2023-03-21_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A5%25E1%2586%25AB_1.23.56.png)
+            <img width="593" alt="bestseller" src="https://github.com/arden333/Data-Projects/assets/110075002/5cbd4f4a-f688-43e4-92a3-50e63ef36e88">
             
     2. KNN
         - Predicted ratings based on the ratings of 30 users with high similarity
         - Generated a recommendation list for products that the customer has not added to the cart or purchased
         - Filtered a maximum of 5 products per main category based on the customer's gender for the final recommendation
         
-        ![스크린샷 2023-03-21 오전 1.26.04.png](Recommendation%20for%20Increasing%20Customer%20Retention%20b6d077c336384de0a571e53c570f395c/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2023-03-21_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A5%25E1%2586%25AB_1.26.04.png)
+        <img width="514" alt="knn" src="https://github.com/arden333/Data-Projects/assets/110075002/1fa045d0-5844-4546-b21a-f878f52b59de">
         
     3. SGD
         - Parameters: latent parameter 20, RMSE, learning_rate 0.1 epochs 50
         - Filtered a maximum of 5 products per main category based on the customer's gender for the final recommendation
         
-        ![스크린샷 2023-03-21 오전 1.28.24.png](Recommendation%20for%20Increasing%20Customer%20Retention%20b6d077c336384de0a571e53c570f395c/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2023-03-21_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A5%25E1%2586%25AB_1.28.24.png)
+        <img width="549" alt="sgd" src="https://github.com/arden333/Data-Projects/assets/110075002/6a100b54-6db0-4611-b85f-f2ce1d564f06">
