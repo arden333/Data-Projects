@@ -6,10 +6,10 @@
 
 ## Objective
 
-- Implementation of recommendation system to increase customer retention
+- Implementation of a recommendation system to increase customer retention
     - In terms of customer relationship development and cost, retaining existing customers is more crucial than acquiring new ones.
     - By maintaining long-term customer relationships, a company can anticipate stable revenue and secure a foundation for growth.
-    - Personalized recommendation based on customer’s preferences can trigger additional purchases and a lock-in effect.
+    - Personalized recommendations based on customer’s preferences can trigger additional purchases and a lock-in effect.
 
 ## Tech Stack
 
@@ -43,7 +43,7 @@
     - Customers were categorized into three groups based on their level of engagement; Active, Normal, and Non-active groups
     - While the proportions of the three groups are similar, the Active customer group, which has the most significant impact on revenue, has the lowest proportion.
     
-    ![3 _rfm](https://github.com/arden333/Data-Projects/assets/110075002/b8630871-2e04-4d0c-b2be-37b04bf99e72)
+    ![3  rfm](https://github.com/arden333/Data-Projects/assets/110075002/62b60861-3016-46b6-ad9b-f2175431b301)
     
 
 ### 3. Retention Analysis
@@ -69,8 +69,9 @@
 - Funnel Definition
     - Reclassified 9 events into 4 key events.
     
-    | 1. Visit | homepage, search, scroll, click |
+    | Category | Events |
     | --- | --- |
+    | 1. Visit | homepage, search, scroll, click |
     | 2. Interst | item_page |
     | 3. Purchase Intention | add_to_cart, booking |
     | 4. Buy | pay |
@@ -91,10 +92,10 @@
     - Range retention: decline in repurchase rate
     - Rolling retention: incline in customer churn
     - Purchase behavior: low appeal of detailed item pages
-    - Funnel Analysis: low in conversion rate from detailed page to purchase intention(cart or buy)
+    - Funnel Analysis: low conversion rate from detailed page to purchase intention(cart or buy)
 - **Insights**
     - Customers tended to move from a landing page to purchase behaviors such as putting items into their carts or directly buying them.
-    - **Recommendation system is need to customize landing pages.**
+    - **A recommendation system is needed to customize landing pages.**
 
 ## Recommendation System
 
