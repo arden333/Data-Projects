@@ -60,7 +60,6 @@ The company A, the game producer, does the following:
     <img width="489" alt="Untitled 3" src="https://github.com/arden333/Data-Projects/assets/110075002/4de1a189-9d34-43f6-9d32-d6c8b14f1684">
     
 
-<aside>
 **[Hypothesis 2] There is an annual game trend.**
 
 - The distinctive and long-term trends are shown in sales, game genres, and platforms.
@@ -83,8 +82,6 @@ The company A, the game producer, does the following:
         <img width="474" alt="Untitled 6" src="https://github.com/arden333/Data-Projects/assets/110075002/d80ddaef-288f-4da6-b113-9dbbe7b08e32">
         
     
-
-<aside>
 **Game Sales Top 50 Analysis**
 
 - The distinctive and long-term trends are shown in sales, game genres, and platforms.
@@ -98,7 +95,6 @@ The company A, the game producer, does the following:
 
 <img width="288" alt="Untitled 8" src="https://github.com/arden333/Data-Projects/assets/110075002/c8b48757-5cb2-4a6c-b7f5-7b89f8d6d05d">
 
-<aside>
 **Challenges**: The limitation of tracking the latest trends in the video game market due to the absence of recent data beyond 2016
 
 - Supplemented by reference to the game market trend data in the ‘2021 White Paper on Korean Games’ published by the Korea Creative Content Agency
