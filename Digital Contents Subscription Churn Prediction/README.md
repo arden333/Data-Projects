@@ -1,2 +1,2 @@
-# CP2_hub
-Codestates Project(section 6)
+# Digital Contents Subscription Churn Prediction
+
