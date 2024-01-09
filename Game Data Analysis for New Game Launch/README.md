@@ -40,7 +40,6 @@ The company A, the game producer, does the following:
 
 ### 3. Analysis & Visualization
 
-<aside>
 **[Hypothesis 1] There is no difference in the preferred game genre by region.**
 
 - There was a statistically significant difference in the preferred game genre by region.
@@ -94,6 +93,8 @@ The company A, the game producer, does the following:
 <img width="587" alt="Untitled 7" src="https://github.com/arden333/Data-Projects/assets/110075002/2932bb51-28d2-49e8-b652-6180a703af71">
 
 <img width="288" alt="Untitled 8" src="https://github.com/arden333/Data-Projects/assets/110075002/c8b48757-5cb2-4a6c-b7f5-7b89f8d6d05d">
+
+
 
 **Challenges**: The limitation of tracking the latest trends in the video game market due to the absence of recent data beyond 2016
 
