@@ -1,8 +1,8 @@
 # Digital Contents Subscription Churn Prediction
 
-Category: Supervised Machine Learning
-Oragnization: Personal Project
-Tools: Python
+Category: Supervised Machine Learning   
+Oragnization: Personal Project   
+Tools: Python  
 
 ## Objective
 
