@@ -41,7 +41,7 @@ The company A, the game producer, does the following:
 ### 3. Analysis & Visualization
 
 <aside>
-<img src="https://www.notion.so/icons/checkmark_gray.svg" alt="https://www.notion.so/icons/checkmark_gray.svg" width="40px" /> **[Hypothesis 1] There is no difference in the preferred game genre by region.**
+**[Hypothesis 1] There is no difference in the preferred game genre by region.**
 
 - There was a statistically significant difference in the preferred game genre by region.
 </aside>
@@ -61,7 +61,7 @@ The company A, the game producer, does the following:
     
 
 <aside>
-<img src="https://www.notion.so/icons/checkmark_gray.svg" alt="https://www.notion.so/icons/checkmark_gray.svg" width="40px" /> **[Hypothesis 2] There is an annual game trend.**
+**[Hypothesis 2] There is an annual game trend.**
 
 - The distinctive and long-term trends are shown in sales, game genres, and platforms.
 </aside>
@@ -85,7 +85,7 @@ The company A, the game producer, does the following:
     
 
 <aside>
-<img src="https://www.notion.so/icons/checkmark_gray.svg" alt="https://www.notion.so/icons/checkmark_gray.svg" width="40px" /> **Game Sales Top 50 Analysis**
+**Game Sales Top 50 Analysis**
 
 - The distinctive and long-term trends are shown in sales, game genres, and platforms.
 </aside>
@@ -99,7 +99,7 @@ The company A, the game producer, does the following:
 <img width="288" alt="Untitled 8" src="https://github.com/arden333/Data-Projects/assets/110075002/c8b48757-5cb2-4a6c-b7f5-7b89f8d6d05d">
 
 <aside>
-<img src="https://www.notion.so/icons/skip-forward_gray.svg" alt="https://www.notion.so/icons/skip-forward_gray.svg" width="40px" /> **Challenges**: The limitation of tracking the latest trends in the video game market due to the absence of recent data beyond 2016
+**Challenges**: The limitation of tracking the latest trends in the video game market due to the absence of recent data beyond 2016
 
 - Supplemented by reference to the game market trend data in the ‘2021 White Paper on Korean Games’ published by the Korea Creative Content Agency
 </aside>
